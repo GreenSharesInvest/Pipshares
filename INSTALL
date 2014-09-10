@@ -1,9 +1,9 @@
-Building Pipshares
+Building pipshares
 
-See doc/readme-qt.rst for instructions on building Pipshares QT,
+See doc/readme-qt.rst for instructions on building pipshares QT,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of Pipshares.
+implementation of pipshares.
 
-See doc/build-*.txt for instructions on building Pipsharesd,
+See doc/build-*.txt for instructions on building pipsharesd,
 the intended-for-services, no-graphical-interface, reference
-implementation of Pipshares.
+implementation of pipshares.

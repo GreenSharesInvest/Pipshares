@@ -50,12 +50,12 @@ bool AppInit(int argc, char* argv[])
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
             // First part of help message is specific to bitcoind / RPC client
-            std::string strUsage = _("Pipshares version") + " " + FormatFullVersion() + "\n\n" +
+            std::string strUsage = _("pipshares version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  Pipsharesd [options]                     " + "\n" +
-                  "  Pipsharesd [options] <command> [params]  " + _("Send command to -server or Pipsharesd") + "\n" +
-                  "  Pipsharesd [options] help                " + _("List commands") + "\n" +
-                  "  Pipsharesd [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  pipsharesd [options]                     " + "\n" +
+                  "  pipsharesd [options] <command> [params]  " + _("Send command to -server or pipsharesd") + "\n" +
+                  "  pipsharesd [options] help                " + _("List commands") + "\n" +
+                  "  pipsharesd [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage();
 
@@ -65,7 +65,7 @@ bool AppInit(int argc, char* argv[])
 
         // Command-line RPC
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "Pipshares:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "pipshares:"))
                 fCommandLine = true;
 
         if (fCommandLine)

@@ -1,7 +1,7 @@
 src/*.exe
-src/Pipshares
-src/Pipsharesd
-src/test_Pipshares
+src/pipshares
+src/pipsharesd
+src/test_pipshares
 src/build.h
 .*.swp
 *.*~*
@@ -10,11 +10,11 @@ src/build.h
 *.orig
 *.o
 *.patch
-.Pipshares
+.pipshares
 #compilation and Qt preprocessor part
 *.qm
 Makefile
-Pipshares-qt
+pipshares-qt
 #resources cpp
 qrc_*.cpp
 #qt creator
