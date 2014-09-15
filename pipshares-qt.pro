@@ -1,5 +1,5 @@
 TEMPLATE = app
-TARGET = pipshares-qt
+TARGET = Pipshares-Qt
 VERSION = 1.0.0
 INCLUDEPATH += src src/json src/qt
 QT += network

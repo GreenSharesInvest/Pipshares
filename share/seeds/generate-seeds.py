@@ -110,7 +110,7 @@ def process_nodes(g, f, structname, defaultport):
 
 def main():
     if len(sys.argv)<2:
-        print(('Usage: %s c:\Pipshares github rep\Pipshares\share\seeds' % sys.argv[0]), file=sys.stderr)
+        print(('Usage: %s <path to nodes>' % sys.argv[0]), file=sys.stderr)
         exit(1)
     g = sys.stdout
     indir = sys.argv[1]
