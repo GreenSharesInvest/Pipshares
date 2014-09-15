@@ -5,19 +5,20 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BlackCoin</source>
-        <translation>About BlackCoin</translation>
+        <source>About Pipshares</source>
+        <translation>About Pipshares</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BlackCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BlackCoin&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;Pipshares&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Pipshares&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The BlackCoin developers</source>
+Copyright © 2014 The Blackcoin developers
+Copyright © 2014 The Pipshares developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -60,8 +61,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your BlackCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>These are your BlackCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
+        <source>These are your Pipshares addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>These are your Pipshares addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +76,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a BlackCoin address</source>
-        <translation>Sign a message to prove you own a BlackCoin address</translation>
+        <source>Sign a message to prove you own a Pipshares address</source>
+        <translation>Sign a message to prove you own a Pipshares address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +91,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified BlackCoin address</source>
-        <translation>Verify a message to ensure it was signed with a specified BlackCoin address</translation>
+        <source>Verify a message to ensure it was signed with a specified Pipshares address</source>
+        <translation>Verify a message to ensure it was signed with a specified Pipshares address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +259,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>BlackCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>BlackCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</translation>
+        <source>Pipshares will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Pipshares will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -357,8 +358,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about BlackCoin</source>
-        <translation>Show information about BlackCoin</translation>
+        <source>Show information about Pipshares</source>
+        <translation>Show information about Pipshares</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -410,13 +411,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a BlackCoin address</source>
-        <translation>Send coins to a BlackCoin address</translation>
+        <source>Send coins to a Pipshares address</source>
+        <translation>Send coins to a Pipshares address</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for BlackCoin</source>
-        <translation>Modify configuration options for BlackCoin</translation>
+        <source>Modify configuration options for Pipshares</source>
+        <translation>Modify configuration options for Pipshares</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -455,8 +456,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-212"/>
-        <source>BlackCoin</source>
-        <translation>BlackCoin</translation>
+        <source>Pipshares</source>
+        <translation>Pipshares</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -465,8 +466,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+191"/>
-        <source>&amp;About BlackCoin</source>
-        <translation>&amp;About BlackCoin</translation>
+        <source>&amp;About Pipshares</source>
+        <translation>&amp;About Pipshares</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -517,15 +518,15 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>BlackCoin client</source>
-        <translation>BlackCoin client</translation>
+        <source>Pipshares client</source>
+        <translation>Pipshares client</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to BlackCoin network</source>
+        <source>%n active connection(s) to Pipshares network</source>
         <translation>
-            <numerusform>%n active connection to BlackCoin network</numerusform>
-            <numerusform>%n active connections to BlackCoin network</numerusform>
+            <numerusform>%n active connection to Pipshares network</numerusform>
+            <numerusform>%n active connections to Pipshares network</numerusform>
         </translation>
     </message>
     <message>
@@ -667,8 +668,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BlackCoin address or malformed URI parameters.</source>
-        <translation>URI can not be parsed! This can be caused by an invalid BlackCoin address or malformed URI parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Pipshares address or malformed URI parameters.</source>
+        <translation>URI can not be parsed! This can be caused by an invalid Pipshares address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -744,8 +745,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. BlackCoin can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. BlackCoin can no longer continue safely and will quit.</translation>
+        <source>A fatal error occurred. Pipshares can no longer continue safely and will quit.</source>
+        <translation>A fatal error occurred. Pipshares can no longer continue safely and will quit.</translation>
     </message>
 </context>
 <context>
@@ -1064,8 +1065,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BlackCoin address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid BlackCoin address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Pipshares address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid Pipshares address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1083,8 +1084,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>BlackCoin-Qt</source>
-        <translation>BlackCoin-Qt</translation>
+        <source>Pipshares-Qt</source>
+        <translation>Pipshares-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1156,13 +1157,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BlackCoin after logging in to the system.</source>
-        <translation>Automatically start BlackCoin after logging in to the system.</translation>
+        <source>Automatically start Pipshares after logging in to the system.</source>
+        <translation>Automatically start Pipshares after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BlackCoin on system login</source>
-        <translation>&amp;Start BlackCoin on system login</translation>
+        <source>&amp;Start Pipshares on system login</source>
+        <translation>&amp;Start Pipshares on system login</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1171,8 +1172,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BlackCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the BlackCoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Pipshares client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Pipshares client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1181,8 +1182,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the BlackCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connect to the BlackCoin network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
+        <source>Connect to the Pipshares network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connect to the Pipshares network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1256,8 +1257,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BlackCoin.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting BlackCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Pipshares.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting Pipshares.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1323,8 +1324,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BlackCoin.</source>
-        <translation>This setting will take effect after restarting BlackCoin.</translation>
+        <source>This setting will take effect after restarting Pipshares.</source>
+        <translation>This setting will take effect after restarting Pipshares.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1342,8 +1343,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+27"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BlackCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the BlackCoin network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pipshares network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Pipshares network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1558,8 +1559,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BlackCoin-Qt help message to get a list with possible BlackCoin command-line options.</source>
-        <translation>Show the BlackCoin-Qt help message to get a list with possible BlackCoin command-line options.</translation>
+        <source>Show the Pipshares-Qt help message to get a list with possible Pipshares command-line options.</source>
+        <translation>Show the Pipshares-Qt help message to get a list with possible Pipshares command-line options.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1578,13 +1579,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>BlackCoin - Debug window</source>
-        <translation>BlackCoin - Debug window</translation>
+        <source>Pipshares - Debug window</source>
+        <translation>Pipshares - Debug window</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>BlackCoin Core</source>
-        <translation>BlackCoin Core</translation>
+        <source>Pipshares Core</source>
+        <translation>Pipshares Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1593,8 +1594,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BlackCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the BlackCoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the Pipshares debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the Pipshares debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1603,8 +1604,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the BlackCoin RPC console.</source>
-        <translation>Welcome to the BlackCoin RPC console.</translation>
+        <source>Welcome to the Pipshares RPC console.</source>
+        <translation>Welcome to the Pipshares RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1677,8 +1678,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BC</source>
-        <translation type="unfinished">123.456 BC {0.00 ?}</translation>
+        <source>0.00 PIP</source>
+        <translation type="unfinished">123.456 PIP {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1747,8 +1748,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BC</source>
-        <translation>123.456 BC</translation>
+        <source>123.456 PIP</source>
+        <translation>123.456 PIP</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1762,8 +1763,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a BlackCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Enter a BlackCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Pipshares address (e.g. P7hkLgY4r2RoGdqYk3QsAqLckyf9pyHN6T)</source>
+        <translation>Enter a Pipshares address (e.g. P7hkLgY4r2RoGdqYk3QsAqLckyf9pyHN6T)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1862,7 +1863,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid BlackCoin address</source>
+        <source>WARNING: Invalid Pipshares address</source>
         <translation></translation>
     </message>
     <message>
@@ -1906,7 +1907,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to send the payment to  (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>The address to send the payment to  (e.g. P7hkLgY4r2RoGdqYk3QsAqLckyf9pyHN6T)</source>
         <translation></translation>
     </message>
     <message>
@@ -1936,8 +1937,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BlackCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Enter a BlackCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Pipshares address (e.g. P7hkLgY4r2RoGdqYk3QsAqLckyf9pyHN6T)</source>
+        <translation>Enter a Pipshares address (e.g. P7hkLgY4r2RoGdqYk3QsAqLckyf9pyHN6T)</translation>
     </message>
 </context>
 <context>
@@ -1960,8 +1961,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>The address to sign the message with (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>The address to sign the message with (e.g. P7hkLgY4r2RoGdqYk3QsAqLckyf9pyHN6T)</source>
+        <translation>The address to sign the message with (e.g. P7hkLgY4r2RoGdqYk3QsAqLckyf9pyHN6T)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1997,8 +1998,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BlackCoin address</source>
-        <translation>Sign the message to prove you own this BlackCoin address</translation>
+        <source>Sign the message to prove you own this Pipshares address</source>
+        <translation>Sign the message to prove you own this Pipshares address</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2024,13 +2025,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>The address the message was signed with (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>The address the message was signed with (e.g. P7hkLgY4r2RoGdqYk3QsAqLckyf9pyHN6T)</source>
+        <translation>The address the message was signed with (e.g. P7hkLgY4r2RoGdqYk3QsAqLckyf9pyHN6T)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BlackCoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified BlackCoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified Pipshares address</source>
+        <translation>Verify the message to ensure it was signed with the specified Pipshares address</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2040,8 +2041,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BlackCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Enter a BlackCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Pipshares address (e.g. P7hkLgY4r2RoGdqYk3QsAqLckyf9pyHN6T)</source>
+        <translation>Enter a Pipshares address (e.g. P7hkLgY4r2RoGdqYk3QsAqLckyf9pyHN6T)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2050,8 +2051,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BlackCoin signature</source>
-        <translation>Enter BlackCoin signature</translation>
+        <source>Enter Pipshares signature</source>
+        <translation>Enter Pipshares signature</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2633,8 +2634,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>BlackCoin version</source>
-        <translation>BlackCoin version</translation>
+        <source>Pipshares version</source>
+        <translation>Pipshares version</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2643,8 +2644,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or blackcoind</source>
-        <translation>Send command to -server or blackcoind</translation>
+        <source>Send command to -server or Pipsharesd</source>
+        <translation>Send command to -server or Pipsharesd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2663,13 +2664,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: blackcoin.conf)</source>
-        <translation>Specify configuration file (default: blackcoin.conf)</translation>
+        <source>Specify configuration file (default: Pipshares.conf)</source>
+        <translation>Specify configuration file (default: Pipshares.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: blackcoind.pid)</source>
-        <translation>Specify pid file (default: blackcoind.pid)</translation>
+        <source>Specify pid file (default: Pipsharesd.pid)</source>
+        <translation>Specify pid file (default: Pipsharesd.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2818,8 +2819,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BlackCoin will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BlackCoin will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Pipshares will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Pipshares will not work properly.</translation>
     </message>
     <message>
         <location line="-30"/>
@@ -3002,13 +3003,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=blackcoinrpc
+rpcuser=Pipsharesrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BlackCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Pipshares Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
@@ -3104,7 +3105,7 @@ for example: alertnotify=echo %%s | mail -s &quot;BlackCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. BlackCoin is shutting down.</source>
+        <source>Initialization sanity check failed. Pipshares is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3129,13 +3130,13 @@ for example: alertnotify=echo %%s | mail -s &quot;BlackCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  BlackCoin is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s.  BlackCoin is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Pipshares is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s.  Pipshares is probably already running.</translation>
     </message>
     <message>
         <location line="-97"/>
-        <source>BlackCoin</source>
-        <translation>BlackCoin</translation>
+        <source>Pipshares</source>
+        <translation>Pipshares</translation>
     </message>
     <message>
         <location line="+138"/>
@@ -3169,13 +3170,13 @@ for example: alertnotify=echo %%s | mail -s &quot;BlackCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BlackCoin</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of BlackCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Pipshares</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of Pipshares</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart BlackCoin to complete</source>
-        <translation>Wallet needed to be rewritten: restart BlackCoin to complete</translation>
+        <source>Wallet needed to be rewritten: restart Pipshares to complete</source>
+        <translation>Wallet needed to be rewritten: restart Pipshares to complete</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3244,8 +3245,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BlackCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+120"/>
-        <source>Unable to bind to %s on this computer. BlackCoin is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. BlackCoin is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. Pipshares is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. Pipshares is probably already running.</translation>
     </message>
     <message>
         <location line="-96"/>

@@ -2517,7 +2517,7 @@ bool LoadBlockIndex(bool fAllowNew)
         //    CTxOut(empty)
         //  vMerkleTree: 12630d16a9
 
-        const char* pszTimestamp = "pipshares Crypto-currency";
+        const char* pszTimestamp = "pipshares crypto-currency";
         CTransaction txNew;
         txNew.nTime = 1410362543;
         txNew.vin.resize(1);
