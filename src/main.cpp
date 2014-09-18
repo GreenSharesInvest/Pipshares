@@ -43,7 +43,7 @@ unsigned int nStakeMinAge = 8 * 60 * 60; // 8 hours
 unsigned int nStakeMaxAge = -1; // unlimited
 unsigned int nModifierInterval = 10 * 60; // time to elapse before new modifier is computed
 
-int nCoinbaseMaturity = 500;
+int nCoinbaseMaturity = 50;
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 
@@ -1001,7 +1001,7 @@ static CBigNum GetProofOfStakeLimit(int nHeight)
 // miner's coin base reward
 int64_t GetProofOfWorkReward(int64_t nFees)
 {
-    int64_t nSubsidy = 1000 * COIN;
+    int64_t nSubsidy = 10000 * COIN;
 
     if (fDebug && GetBoolArg("-printcreation"))
         printf("GetProofOfWorkReward() : create=%s nSubsidy=%"PRId64"\n", FormatMoney(nSubsidy).c_str(), nSubsidy);
@@ -2505,23 +2505,23 @@ bool LoadBlockIndex(bool fAllowNew)
 
     MainNet:
 	
-        CBlock(hash=0000039bb9114e6c91d702d1b61c7d947225e60c72046016be0d346f5b122091, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=4c7fb0c7a379aaee0ec05e830a1de8f37d911e6415d37db26f228908e98d391a, nTime=1410362543, nBits=1e0fffff, nNonce=2427201, vtx=1, vchBlockSig=)
-  Coinbase(hash=4c7fb0c7a3, nTime=1410362543, ver=1, vin.size=1, vout.size=1, nLockTime=0)
-    CTxIn(COutPoint(0000000000, 4294967295), coinbase 00012a197069707368617265732063727970746f2d63757272656e6379)
+        CBlock(hash=000004a8333807f8688c9ec6d3a3aa4b21c985c14ee4fcbbbf7177c49d87fc2b, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=316023990b0af606a5d73b975b079338cabbfdb1e82c0204a79b21c391468210, nTime=1410883069, nBits=1e0fffff, nNonce=256715, vtx=1, vchBlockSig=)
+  Coinbase(hash=316023990b, nTime=1410883069, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 00012a195069707368617265732063727970746f2d63757272656e6379)
     CTxOut(empty)
-  vMerkleTree: 4c7fb0c7a3 
-block.GetHash() == 0000039bb9114e6c91d702d1b61c7d947225e60c72046016be0d346f5b122091
-block.hashMerkleRoot == 4c7fb0c7a379aaee0ec05e830a1de8f37d911e6415d37db26f228908e98d391a
-block.nTime = 1410362543 
-block.nNonce = 2427201
+  vMerkleTree: 316023990b 
+block.GetHash() == 000004a8333807f8688c9ec6d3a3aa4b21c985c14ee4fcbbbf7177c49d87fc2b
+block.hashMerkleRoot == 316023990b0af606a5d73b975b079338cabbfdb1e82c0204a79b21c391468210
+block.nTime = 1410883069 
+block.nNonce = 256715
 	
 */
 
         
 
-        const char* pszTimestamp = "pipshares crypto-currency";
+        const char* pszTimestamp = "Pipshares crypto-currency";
         CTransaction txNew;
-        txNew.nTime = 1410362543;
+        txNew.nTime = 1410883069;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -2531,15 +2531,14 @@ block.nNonce = 2427201
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1410362543;
+        block.nTime    = 1410883069;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = !fTestNet ? 2427201 : 216178;
+        block.nNonce   = !fTestNet ? 256715 : 0;
 		
-		
-	
+			
 
         //// debug print
-        assert(block.hashMerkleRoot == uint256("0x4c7fb0c7a379aaee0ec05e830a1de8f37d911e6415d37db26f228908e98d391a"));
+        assert(block.hashMerkleRoot == uint256("0x316023990b0af606a5d73b975b079338cabbfdb1e82c0204a79b21c391468210"));
         block.print();
         assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
         assert(block.CheckBlock());
