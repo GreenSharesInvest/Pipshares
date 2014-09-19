@@ -4,12 +4,12 @@ Pipshares is a PoS-based cryptocurrency.
 Pipshares Technical Details:
 
 Proof of Stake.
-1000000 PIP initially.
-1% yearly interest (to keep Pipshares network going).
+1000000 PIP.
+1% yearly interest.
 1 minute block target.
 8h minimum interest payout.
 10 confirmations for a transfer
-500 confirmations for a staked block.
+60 confirmations for a staked block.
 17001 connection, 17002 rpc.
 
 
